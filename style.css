@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: hsl(225, 100%, 94%);
+	font-family: "Red Hat Display", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2c2c2c;
+}
+.order-summary {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.order-details {
+	padding: 25px 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: #fff;
+}
+.order-details h3 {
+	font-weight: 900;
+}
+.description {
+	font-size: 13px;
+	color: #a8a8a8;
+}
+.pricing-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 15px 10px;
+	border-radius: 10px;
+	background-color: hsl(225, 100%, 98%);
+}
+
+.plan-box {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.plan-price {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.plan-price p {
+	font-size: 13px;
+	color: #a8a8a8;
+}
+.music-icon {
+	width: 50px;
+}
+.change-link {
+	font-size: 12px;
+	color: hsl(245, 75%, 52%);
+	font-weight: bold;
+}
+.change-link:hover {
+	color: hsl(245, 64%, 60%);
+	text-decoration: none;
+}
+
+button {
+	padding: 15px;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 12px;
+}
+.btn-payment {
+	background-color: hsl(245, 75%, 52%);
+	color: #fff;
+	margin-top: 10px;
+	box-shadow: 1px 8px 14px 1px rgb(67 51 243 / 20%);
+}
+.btn-payment:hover {
+	background-color: hsl(245, 64%, 60%);
+}
+.btn-cancel {
+	background-color: inherit;
+	color: #a8a8a8;
+}
+.btn-cancel:hover {
+	color: #000;
+}
